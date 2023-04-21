@@ -1,0 +1,22 @@
+@import url('@highlight-ui/button');
+@import url('@highlight-ui/tooltip');
+@import url('@highlight-ui/icon');
+@import url('@highlight-ui/typography');
+@import url('@highlight-ui/table');
+@import url('@highlight-ui/input');
+@import url('@highlight-ui/select');
+@import url('@highlight-ui/form-field');
+@import url('@highlight-ui/checkbox');
+@import url('@highlight-ui/tag');
+@import url('@highlight-ui/tokens/dist/tokens.css');
+
+@import './styles/font-awesome.css';
+@import './styles/font.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
